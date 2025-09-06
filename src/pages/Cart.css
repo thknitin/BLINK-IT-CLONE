@@ -1,0 +1,277 @@
+.cart-empty {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.cart-empty .cart-icon {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.cart-empty h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cart-empty p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #7e22ce;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #6b21a8;
+}
+
+.cart-container {
+  padding: 30px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.btn-clear {
+  background: none;
+  color: red;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cart-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media (min-width: 992px) {
+  .cart-grid {
+    flex-direction: row;
+  }
+}
+
+.cart-items {
+  flex: 2;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.cart-item-info {
+  flex-grow: 1;
+}
+
+.cart-item-info h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.cart-item-info p {
+  margin: 4px 0;
+  color: #666;
+}
+
+.cart-item-qty {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.cart-item-qty button {
+  width: 28px;
+  height: 28px;
+  font-size: 18px;
+  background-color: #eee;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-item-qty span {
+  width: 30px;
+  text-align: center;
+  display: inline-block;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: red;
+  cursor: pointer;
+}
+
+.cart-summary {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.cart-summary h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.summary-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.continue-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #7e22ce;
+  text-decoration: none;
+  font-weight: bold;
+}
+.cart-container {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.cart-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 0.75rem 0;
+}
+
+.cart-item-image {
+  margin-right: 1rem;
+}
+
+.cart-item-info h3 {
+  margin: 0;
+}
+
+.cart-item-info p {
+  margin: 0.25rem 0;
+}
+
+.cart-item-info button {
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background: #7c3aed;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.cart-item-info button:hover {
+  background: #6d28d9;
+}
+
+.cart-total {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.modal h2 {
+  margin-bottom: 1rem;
+  color: #2e7d32;
+}
+
+.modal-items {
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.modal button {
+  margin-top: 1rem;
+}
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.btn-secondary {
+  background-color: #ccc;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: #bbb;
+}
